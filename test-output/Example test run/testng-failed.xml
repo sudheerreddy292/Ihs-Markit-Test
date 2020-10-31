@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Example test run]">
+  <parameter name="tags" value="@Test1"/>
+  <test name="Test1(failed)">
+    <parameter name="tags" value="@Test1"/>
+    <classes>
+      <class name="com.IhsMarkit.cucumber.CucumberFeatureSuiteTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.IhsMarkit.cucumber.CucumberFeatureSuiteTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
