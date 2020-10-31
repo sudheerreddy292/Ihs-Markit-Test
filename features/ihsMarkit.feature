@@ -20,3 +20,5 @@ Examples:
 #|LIN|L-M-N-O-P|
 |SUDHEER|Q-R-S-T-U|
 #|VIN|V-W-X-Y-Z|
+
+#uncomment the other examples to test the functionality for firstnames starting with different characters
