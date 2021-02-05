@@ -26,7 +26,7 @@ public class Hooks extends DriverFunctions{
 	    
 	@Before
 	public void beforeHook(Scenario scenario) throws InterruptedException {
-		 System.setProperty("webdriver.chrome.driver", "servers/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "servers/windows/chromedriver.exe");
 		createDriver();
 		driver.get("https://dotnetfiddle.net/");
 		DriverFunctions driverFunc=new DriverFunctions();
